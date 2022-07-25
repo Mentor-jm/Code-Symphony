@@ -1,0 +1,40 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.popular-artist{
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 10px;;
+    width: 100%;
+    height: 20%;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.artistCard{
+    display: inline-block;
+}
+/* .music-gallery{
+    
+    height: 60%;
+    width:80%;
+    padding: 20px;
+    margin: 10px;
+} */
+
+.songCard{
+    background-color: rgb(235, 141, 141);
+    width: 20%;
+    padding:10px 5px;
+}
+/* .songCard>h2{
+    float: left;
+} */
+.svgimg{
+    width: 20px;
+    height: 20px;
+    /* float: right; */
+}
+.user-tracks>.songCard{
+    background-color: rgb(71, 180, 113);
+}
